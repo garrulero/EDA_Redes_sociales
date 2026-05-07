@@ -1,0 +1,40 @@
+PROYECTO EDA
+
+
+@'
+===========================================================
+HIPOTESIS Y OBJETIVOS DEL INFORME EDA
+Proyecto: Impacto Conductual y Psicologico de las Redes Sociales
+===========================================================
+
+1. OBJETIVO PRINCIPAL DEL PROYECTO:
+El objetivo de este Analisis Exploratorio de Datos (EDA) es evaluar el uso de redes sociales a traves de distintas generaciones. Se busca demostrar como la edad determina la relacion de los usuarios con las plataformas digitales, analizando metricas de productividad, estres, ansiedad y toxicidad.
+
+2. HIPOTESIS A VALIDAR:
+* HIPOTESIS 1 (El mito del nativo digital): Los nativos digitales (Gen Z/Alfa) NO tienen una relacion mas sana con internet. A pesar de nacer hiperconectados, el uso intensivo les genera niveles mas altos de ansiedad y disrupciones de sueño que a los adultos.
+* HIPOTESIS 2 (La trampa del tiempo en adultos): Los Millennials y Boomers experimentan una dependencia distinta. Aunque asuman usar menos las redes, sufren impactos severos en su productividad y picos de estres ligados a plataformas que consideran "maduras" o "utiles" (ej. Twitter, Facebook).
+* HIPOTESIS 3 (Toxicidad por formato): La forma en que se manifiesta la toxicidad digital depende de la generacion y la plataforma. Los adultos canalizan y generan estres en entornos textuales y de debate (Reddit/Twitter), mientras que los jovenes consumen un estres pasivo en entornos de inmediatez visual (TikTok/Instagram).
+
+3. METODOLOGIA Y CRUCE DE DATOS:
+Se realizaran analisis de estadistica descriptiva, correlaciones de variables conductuales (horas de uso vs. impacto en salud/productividad) y tecnicas de Procesamiento de Lenguaje Natural (NLP) sobre los datasets de 'Productivity', 'Teen Mental Health' y 'Dreaddit' (Stress Analysis).
+'@ | Out-File -FilePath "HIPOTESIS_OBJETIVOS_EDA.txt" -Encoding utf8
+
+
+-DATA
+https://www.kaggle.com/datasets/ruchi798/stress-analysis-in-social-media
+https://www.kaggle.com/datasets/mahdimashayekhi/social-media-vs-productivity
+https://www.kaggle.com/datasets/algozee/teenager-menthal-healy
+https://www.kaggle.com/code/shivaavi/dark-side-of-social-media
+
+
+
+
+
+
+
+
+
+
+
+-NOTEBOOK
+-SCRIPTS
