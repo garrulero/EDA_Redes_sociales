@@ -14,6 +14,7 @@ Conclusión: El estrés digital es una problemática generalizada, no una cuesti
 El uso de herramientas de bienestar digital redujo el estrés de 5.54 a 5.42.
 La gestión de hábitos resulta más efectiva que cualquier segmentación generacional.
 🛠 Tecnologías Utilizadas
-![alt text](https://img.shields.io/badge/Python-3.12-blue)
-![alt text](https://img.shields.io/badge/Pandas-Análisis-green)
-![alt text](https://img.shields.io/badge/Seaborn-Visualización-orange)
+Python 3.12
+Pandas
+Seaborn
+Proyecto realizado como ejercicio de Análisis Exploratorio de Datos.
